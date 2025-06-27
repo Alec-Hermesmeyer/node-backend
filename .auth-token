@@ -1,0 +1,17 @@
+{
+  "token": "eyJhbGciOiJIUzI1NiIsImtpZCI6IndVcUZXZ21UL3luYWVFbm8iLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3RveXZzbnltZGhpd255d2tidWZkLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiIwZjdmMzQwNS1jMTFkLTQ4YTMtYTVjNS0xNGYxMTNlMmI3YzQiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzQ5NzYyODYyLCJpYXQiOjE3NDk3NTkyNjIsImVtYWlsIjoiYWxlYy5oZXJtZXNtZXllckBxaWcuYWkiLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7ImVtYWlsIjoiYWxlYy5oZXJtZXNtZXllckBxaWcuYWkiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiIwZjdmMzQwNS1jMTFkLTQ4YTMtYTVjNS0xNGYxMTNlMmI3YzQifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTc0OTc1OTI2Mn1dLCJzZXNzaW9uX2lkIjoiOWJkZjQ3MGQtN2QzZC00NTlmLTk1NDUtYTRlNGI3MDMxYzkwIiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.WAgh_6AFlmoqCCZKnhP0HHVZUuJJ2_5jjp7AqYFLmWg",
+  "user": {
+    "id": "0f7f3405-c11d-48a3-a5c5-14f113e2b7c4",
+    "email": "alec.hermesmeyer@qig.ai",
+    "organization": {
+      "id": "0e06e905-3a1a-446a-8235-60a05969b785",
+      "name": "QIG",
+      "logo_url": "https://toyvsnymdhiwnywkbufd.supabase.co/storage/v1/object/public/organization-logos//QIG.png",
+      "created_at": "2025-05-05T14:37:32.722317+00:00",
+      "updated_at": "2025-05-05T14:37:32.722317+00:00",
+      "theme_color": "bg-slate-700"
+    },
+    "isQIG": true
+  },
+  "timestamp": 1749759263036
+}
