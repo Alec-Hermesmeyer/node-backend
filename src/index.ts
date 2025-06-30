@@ -14,9 +14,9 @@ import authRoutes from './routes/auth';
 import chatSessionsRoutes from './routes/chat-sessions';
 import organizationRoutes from './routes/organizations';
 
-// Load environment variables
+// Load environment variables (optional in production)
 const result = dotenv.config();
-if (result.error) {
+if (result.error && process.env.NODE_ENV !== 'production') {
   console.error('Error loading .env file:', result.error);
   process.exit(1);
 }
