@@ -129,6 +129,8 @@ function extractBestScore(result: SearchResultItem): { score: number, source: st
 router.get('/buckets', async (req: any, res: any) => {
   try {
     console.log('Fetching Ground-X buckets for organization:', req.user?.organization?.name);
+    console.log('Authorization header received:', req.headers.authorization ? 'Present' : 'Missing');
+    console.log('Token length:', req.headers.authorization ? req.headers.authorization.length : 0);
     
     // Get all buckets from GroundX
     const client = getGroundXClient();
