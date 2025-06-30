@@ -86,8 +86,8 @@ export async function authenticateSupabaseUser(
       });
     }
 
-    // Extract the JWT token
-    const token = authHeader.substring(7);
+    // Extract the JWT token and clean it
+    const token = authHeader.substring(7).trim().replace(/\s+/g, '');
 
     // Get Supabase client and verify the JWT token
     const supabaseClient = getSupabaseClient();
